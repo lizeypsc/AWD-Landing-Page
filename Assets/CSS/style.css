@@ -1,0 +1,95 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #23012e;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url(https://i.pinimg.com/564x/cf/5d/70/cf5d706a381b4aca027c554487083fdd.jpg);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.projects {
+    padding: 40px 0;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    margin-top: 0;
+    color: #f44470;
+}
+
+.project p {
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44470;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.project:nth-child(1) {
+    background-image: url(https://i.pinimg.com/236x/18/2d/b9/182db9ac0cbc0450702cf7dc954f5f89.jpg);
+}
+
+.project:nth-child(2) {
+    background-image: url(https://i.pinimg.com/236x/fe/55/3e/fe553eda97887845a0e82295acfb2255.jpg);
+}
+
+.project:nth-child(3) {
+    background-image: url(https://i.pinimg.com/236x/77/34/9e/77349e886e4832c67fe6620bd7ac2aef.jpg);
+}
+
+.project:nth-child(4) {
+    background-image: url(https://i.pinimg.com/236x/b5/34/91/b53491bc03cb387e6603e13981778e6d.jpg);
+}
+
+.project:nth-child(5) {
+    background-image: url(https://i.pinimg.com/236x/99/08/b9/9908b9289ad5b9a96707dd18136f4831.jpg);
+}
+
+.project:nth-child(6) {
+    background-image: url(https://i.pinimg.com/236x/74/ce/78/74ce785ecfc83791a717a5e5d74e4906.jpg);
+}
+
+.project:nth-child(7) {
+    background-image: url(https://i.pinimg.com/236x/24/62/ca/2462ca8b38e99ca0b04f3910046bdd32.jpg);
+}
+
+.project:nth-child(8) {
+    background-image: url(https://i.pinimg.com/236x/03/d9/52/03d9520307238b21b4ea436628b23b85.jpg);
+}
